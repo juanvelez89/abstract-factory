@@ -13,7 +13,7 @@ El patrón abstract factory debería usarse cuando el sistema debe ser independi
 Declara una interfaz para las operaciones que crean los objetos abstractos.
 
 ### ConcreteFactory
-Implementa las operaciones que crean los objetos concretos.
+Implementa las operaciones de AbstractFactory que crean los objetos concretos.
 
 ### AbstractProduct
 Declara una interfaz por un tipo de objeto.
