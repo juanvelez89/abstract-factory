@@ -1,5 +1,8 @@
 # abstract-factory
-Este es el ejemplo práctico del patrón de diseño abstract factory en c# y una corta explicación en lo que consiste.Basado en el libro: Design Patterns Eelements of reusable Object-Oriented Software de Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
+Este es el ejemplo práctico del patrón de diseño abstract factory en c# y una corta explicación en lo que consiste.
+
+Basado en el libro:
+#### Design Patterns Eelements of reusable Object-Oriented Software de Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
 
 ## Definición
 Es un patrón de diseño creacional el cual provee una interfaz para crear familias de objetos relacionados o dependientes sin especificar la clase en concreto.
