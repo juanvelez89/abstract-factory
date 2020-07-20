@@ -5,10 +5,10 @@ Basado en el libro:
 #### Design Patterns Elements of reusable Object-Oriented Software de Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
 
 ## Definición
-Es un patrón de diseño creacional el cual provee una interfaz para crear familias de objetos relacionados o dependientes sin especificar la clase en concreto.
+Es un patrón de diseño creacional el cual provee una interfaz para crear familias de objetos relacionados o dependientes sin especificar su clase en concreto.
 
 ## Aplicabilidad
-El patrón abstract factory debería usarse cuando el sistema debe ser independiente de cómo sus objetos son creados, compuestos y representados y cuando el sistema debe ser configurado con uno de las múltiples familias de objetos.
+El patrón abstract factory debería usarse cuando el sistema debe ser independiente de cómo sus objetos son creados, compuestos y representados y cuando el sistema debe ser configurado con una de las múltiples familias de objetos.
 
 ## Participantes en el patrón
 
