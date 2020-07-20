@@ -6,7 +6,40 @@ namespace abstract_factory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("First code!");
+            var radio = 0.0;
+            var baseRectangle = 0.0;
+            var hrectangle = 0.0;
+            var shapeFactory = new ShapeFactory();
+            Console.WriteLine("Get Geometric Shape!");
+            Console.WriteLine("1.Circle");
+            Console.WriteLine("2.Rectangle");
+            Console.WriteLine("3.Square");
+            Console.WriteLine("4.Triangle");
+            var shape = Console.ReadLine();
+            object shapeObject = null;
+            switch (shape)
+            {
+                case "1":
+                    Console.WriteLine("escribir la longitud en centimetros del radio");
+                    radio = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Area:");
+                    Console.WriteLine(shapeFactory.CreateShapeCircle().GetArea(radio));
+                    break;
+                case "2":
+                    Console.WriteLine("escribir la longitud en centimetros de la base");
+                    baseRectangle =double.Parse(Console.ReadLine());
+                    Console.WriteLine("escribir la longitud en centimetros de la altura");
+                    hrectangle = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Area:");
+                    Console.WriteLine(shapeFactory.CreateShapeRectangle().GetArea(baseRectangle, hrectangle));
+                    break;
+                case "4":
+                    shapeObject = shapeFactory.CreateShapeTriangle();
+                    break;
+                default:
+                    break;
+            }
+
         }
     }
 }
