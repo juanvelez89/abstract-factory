@@ -20,15 +20,15 @@ namespace abstract_factory
             switch (shape)
             {
                 case "1":
-                    Console.WriteLine("escribir la longitud en centimetros del radio");
+                    Console.WriteLine("write the radio's length in centimeters");
                     radio = double.Parse(Console.ReadLine());
                     Console.WriteLine("Area:");
                     Console.WriteLine(shapeFactory.CreateShapeCircle().GetArea(radio));
                     break;
                 case "2":
-                    Console.WriteLine("escribir la longitud en centimetros de la base");
+                    Console.WriteLine("write the base's length in centimeters");
                     baseRectangle =double.Parse(Console.ReadLine());
-                    Console.WriteLine("escribir la longitud en centimetros de la altura");
+                    Console.WriteLine("write the height's length in centimeters");
                     hrectangle = double.Parse(Console.ReadLine());
                     Console.WriteLine("Area:");
                     Console.WriteLine(shapeFactory.CreateShapeRectangle().GetArea(baseRectangle, hrectangle));
