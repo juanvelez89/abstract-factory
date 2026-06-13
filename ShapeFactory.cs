@@ -7,19 +7,17 @@ namespace abstract_factory
 {
     public class ShapeFactory : IShapeFactory_abstractfactory_
     {
-
-
-        public Circle CreateShapeCircle()
+        public IAbstractShapeCircle CreateShapeCircle()
         {
             return new Circle();
         }
 
-        public Rectangle CreateShapeRectangle()
+        public IAbstractShapeRectangle CreateShapeRectangle()
         {
             return new Rectangle();
         }
 
-        public Triangle CreateShapeTriangle()
+        public IAbstractShapeTriangle CreateShapeTriangle()
         {
             return new Triangle();
         }

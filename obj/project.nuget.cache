@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "i017k6g2eI0=",
+  "success": true,
+  "projectFilePath": "/home/runner/work/abstract-factory/abstract-factory/juanvelez89/abstract-factory/abstract-factory.csproj",
+  "expectedPackageFiles": [
+    "/tmp/codeql-scratch-708f7c21e62db806/dbs/csharp/working/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "/tmp/codeql-scratch-708f7c21e62db806/dbs/csharp/working/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "/tmp/codeql-scratch-708f7c21e62db806/dbs/csharp/working/packages/microsoft.netcore.app.host.linux-x64/3.0.3/microsoft.netcore.app.host.linux-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
