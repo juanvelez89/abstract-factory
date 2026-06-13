@@ -4,10 +4,10 @@ using System.Text;
 
 namespace abstract_factory
 {
-    interface IAbstractShapeTriangle
+    public interface IAbstractShapeTriangle
     {
         //Metodos para obtener area y perimetro de un triangulo
-        double GetArea(string l1, string l2, string l3);
-        double GetPerimeter(string l1, string l2, string l3);
+        double GetArea(double l1, double l2, double l3);
+        double GetPerimeter(double l1, double l2, double l3);
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace abstract_factory
 {
-    interface IAbstractShapeRectangle
+    public interface IAbstractShapeRectangle
     {
         double GetArea(double l1, double l2);
         double GetPerimeter(double l1, double l2);

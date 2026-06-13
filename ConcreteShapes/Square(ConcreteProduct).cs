@@ -13,7 +13,7 @@ namespace abstract_factory.ConcreteShapes
 
         public double GetPerimeter(double l1, double l2)
         {
-            throw new NotImplementedException();
+            return 4 * l1;
         }
     }
 }

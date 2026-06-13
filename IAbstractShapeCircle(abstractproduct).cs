@@ -4,10 +4,10 @@ using System.Text;
 
 namespace abstract_factory
 {
-    interface IAbstractShapeCircle
+    public interface IAbstractShapeCircle
     {
         double GetArea(double r);
-        double GetPerimeter(string r);
+        double GetPerimeter(double r);
 
     }
 }

@@ -5,11 +5,11 @@ using System.Text;
 
 namespace abstract_factory
 {
-    interface IShapeFactory_abstractfactory_
+    public interface IShapeFactory_abstractfactory_
     {
         //Métodos de fabrica de figuras geometricas los cuales devuelven objetos de tipo: circulo, triangulo o rectangulo.
-         Circle CreateShapeCircle();
-         Triangle  CreateShapeTriangle();
-         Rectangle CreateShapeRectangle();
+         IAbstractShapeCircle CreateShapeCircle();
+         IAbstractShapeTriangle  CreateShapeTriangle();
+         IAbstractShapeRectangle CreateShapeRectangle();
     }
 }

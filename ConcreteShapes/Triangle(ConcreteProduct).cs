@@ -6,14 +6,16 @@ namespace abstract_factory.ConcreteShapes
 {
     public class Triangle : IAbstractShapeTriangle
     {
-        public double GetArea(string l1, string l2, string l3)
+        public double GetArea(double l1, double l2, double l3)
         {
-            throw new NotImplementedException();
+            // Fórmula de Herón
+            double s = (l1 + l2 + l3) / 2;
+            return Math.Sqrt(s * (s - l1) * (s - l2) * (s - l3));
         }
 
-        public double GetPerimeter(string l1, string l2, string l3)
+        public double GetPerimeter(double l1, double l2, double l3)
         {
-            throw new NotImplementedException();
+            return l1 + l2 + l3;
         }
     }
 }

@@ -11,9 +11,9 @@ namespace abstract_factory.ConcreteShapes
             return Math.PI * Math.Pow(r, 2);
         }
 
-        public double GetPerimeter(string r)
+        public double GetPerimeter(double r)
         {
-            throw new NotImplementedException();
+            return 2 * Math.PI * r;
         }
     }
 }
